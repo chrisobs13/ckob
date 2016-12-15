@@ -13,11 +13,13 @@ defaults:
     path: ''
     type: posts
   values:
-    image: 
+    image:
 email: chris@hellodative.com
 description: Chris OBrien is a Cape Cod based web designer, developer and writer.
-baseurl: 
-url: 
+bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+chris_photo:
+baseurl:
+url:
 twitter_username: tasketernal
 github_username: chrisobs13
 markdown: kramdown
