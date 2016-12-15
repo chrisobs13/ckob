@@ -1,0 +1,25 @@
+---
+title: Chris OBrien | Cape Cod web designer, developer and writer.
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: chris@hellodative.com
+description: 'Chris OBrien is a Cape Cod based web designer, developer and writer.
+
+'
+baseurl: 
+url: 
+twitter_username: tasketernal
+github_username: chrisobs13
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock

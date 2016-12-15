@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="nav-is-hidden" id="siteBody">
+
+    {% include header.html %}
+
+    <main class="wrapper" aria-label="Content">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+    <script>
+        var menu = document.getElementById('siteBody');
+        document.getElementById('toggleNav').onclick = function(event) {
+            event.preventDefault();
+            if (menu.className == "nav-is-hidden"){
+                menu.className = "nav-is-visible";
+            } else {
+                menu.className ='nav-is-hidden';
+            }
+        }
+        document.addEventListener('keyup', function(e) {
+            if (e.keyCode == 27) {
+                menu.className ='nav-is-hidden';
+            }
+        });
+    </script>
+  </body>
+
+</html>
