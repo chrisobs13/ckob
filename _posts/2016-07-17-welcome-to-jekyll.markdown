@@ -20,7 +20,7 @@ It is summertime and you are five.
 Your grandma watches, smiling  
 Making a rare appearance  
 In her rubber swim cap  
-And frilly one-piece suit.  
+And frilly one-piece suit.
 
 It is summertime and you are five.  
 The lifeguard looks on, distracted  
