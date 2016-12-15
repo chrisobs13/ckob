@@ -8,10 +8,14 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    image: 
 email: chris@hellodative.com
-description: 'Chris OBrien is a Cape Cod based web designer, developer and writer.
-
-'
+description: Chris OBrien is a Cape Cod based web designer, developer and writer.
 baseurl: 
 url: 
 twitter_username: tasketernal
