@@ -1,6 +1,6 @@
 ---
-title: Your awesome title
-timezone: UTC
+title: Chris OBrien | Cape Cod web designer, developer and writer.
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -8,16 +8,14 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+email: chris@hellodative.com
+description: 'Chris OBrien is a Cape Cod based web designer, developer and writer.
 
 '
-baseurl: ''
-url: ''
-twitter_username: jekyllrb
-github_username: jekyll
+baseurl: 
+url: 
+twitter_username: tasketernal
+github_username: chrisobs13
 markdown: kramdown
 theme: minima
 gems:
